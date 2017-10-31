@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "307072219194",
+    "firebase_url": "https://thelaa-a5de0.firebaseio.com",
+    "project_id": "thelaa-a5de0",
+    "storage_bucket": "thelaa-a5de0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307072219194:android:0084ea279b1bae44",
+        "android_client_info": {
+          "package_name": "in.thelaa.thelaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307072219194-anr4dm7j514615vh31v4obg0spsnt8lp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRIqu8tNCQOuRtQLvfG0zz30T8Ksg6uX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

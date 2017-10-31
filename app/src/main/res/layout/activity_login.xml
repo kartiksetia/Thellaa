@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:alpha="90"
+    tools:context=".views.activities.LoginActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:background="#90000000"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <Button
+
+        android:id="@+id/button_login"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="151dp"
+        android:text="SIGN IN" />
+
+    <EditText
+       android:id="@+id/edt_mobilenum"
+       android:layout_width="match_parent"
+       android:layout_height="45dp"
+        android:hint="Mobile/Email"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:background="#33FFFFFF"
+        android:layout_marginBottom="22dp"
+        android:layout_above="@+id/edt_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Password"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:textSize="18sp"
+        android:background="#33FFFFFF"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/button_login"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="ठेला"
+        android:layout_marginTop="102dp"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Forgot Password ?"
+        android:gravity="center"
+        android:layout_alignTop="@+id/button_login"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginEnd="32dp" />
+</RelativeLayout>
+</RelativeLayout>
